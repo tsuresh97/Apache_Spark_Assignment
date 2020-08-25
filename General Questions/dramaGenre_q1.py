@@ -13,3 +13,5 @@ words_filter = remove_csv_header.filter(lambda x: 'Drama' in x)
 filtered = words_filter.collect()
 
 print("There are %i movies with the 'Drama' genre " %(words_filter.count()))
+
+# Added comments
